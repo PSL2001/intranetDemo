@@ -1,0 +1,8 @@
+{
+  "apiVersion": 2,
+  "title": "BetterDocs Category Grid",
+  "name": "betterdocs/categorygrid",
+  "category": "betterdocs",
+  "description": "Display your Knowledgebase in an amazing Grid layout and style it any way you want.",
+  "textdomain": "betterdocs"
+}

@@ -1,0 +1,326 @@
+# Translation of Plugins - Alx Extensions - Stable (latest release) in Spanish (Spain)
+# This file is distributed under the same license as the Plugins - Alx Extensions - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-08-26 06:25:45+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.0-alpha.1\n"
+"Language: es\n"
+"Project-Id-Version: Plugins - Alx Extensions - Stable (latest release)\n"
+
+#. Author URI of the plugin
+msgid "http://alx.media"
+msgstr "https://alx.media"
+
+#: inc/options.php:135
+msgid "Post Format: Video"
+msgstr "Formato de la entrada: vídeo"
+
+#: inc/options.php:127
+msgid "Post Format: Audio"
+msgstr "Formato de la entrada: audio"
+
+#: inc/options.php:75
+msgid "Scales up small images and crops to the right thumbnail sizes (recommended)"
+msgstr "Aumenta la escala de las imágenes pequeñas y las recorta a los tamaños correctos de las miniaturas (recomendado)"
+
+#: inc/options.php:49
+msgid "Meta Boxes"
+msgstr "Cajas meta"
+
+#: inc/share-footer.php:42
+msgid "on Facebook"
+msgstr "en Facebook"
+
+#: inc/share-footer.php:29
+msgid "on Twitter"
+msgstr "en Twitter"
+
+#: inc/options.php:119 inc/widgets/alx-tabs.php:19
+msgid "Alx Tabs"
+msgstr "Pestañas de Alx"
+
+#: inc/options.php:111 inc/widgets/alx-posts.php:19
+msgid "Alx Posts"
+msgstr "Entradas de Alx"
+
+#: inc/options.php:43
+msgid "Custom Widgets"
+msgstr "Widgets personalizados"
+
+#: inc/widgets/alx-tabs.php:415
+msgid "Tab Info"
+msgstr "Pestaña de información"
+
+#: inc/widgets/alx-tabs.php:406
+msgid "Recent comments"
+msgstr "Comentarios recientes"
+
+#: inc/widgets/alx-tabs.php:402
+msgid "Most popular"
+msgstr "Más popular"
+
+#: inc/widgets/alx-tabs.php:398
+msgid "Recent posts"
+msgstr "Entradas recientes"
+
+#: inc/widgets/alx-tabs.php:395
+msgid "Tab Order"
+msgstr "Orden de las pestañas"
+
+#: inc/widgets/alx-tabs.php:391
+msgid "Enable tags"
+msgstr "Permitir etiquetas"
+
+#: inc/widgets/alx-tabs.php:379
+msgid "Show avatars"
+msgstr "Mostrar los avatares"
+
+#: inc/widgets/alx-tabs.php:375
+msgid "Enable recent comments"
+msgstr "Activar los comentarios recientes"
+
+#: inc/widgets/alx-tabs.php:360
+msgid "Post with most comments from:"
+msgstr "Entrada con más comentarios de:"
+
+#: inc/widgets/alx-tabs.php:345
+msgid "Enable most popular posts"
+msgstr "Activar las entradas más populares"
+
+#: inc/widgets/alx-tabs.php:341
+msgid "Most Popular"
+msgstr "Más popular"
+
+#: inc/widgets/alx-tabs.php:325
+msgid "Enable recent posts"
+msgstr "Permitir entradas recientes"
+
+#: inc/widgets/alx-tabs.php:221
+msgid "says:"
+msgstr "dice:"
+
+#: inc/widgets/alx-tabs.php:60 inc/widgets/alx-tabs.php:387
+#: inc/widgets/alx-tabs.php:410
+msgid "Tags"
+msgstr "Etiquetas"
+
+#: inc/widgets/alx-tabs.php:59 inc/widgets/alx-tabs.php:371
+msgid "Recent Comments"
+msgstr "Comentarios recientes"
+
+#: inc/widgets/alx-tabs.php:58
+msgid "Popular Posts"
+msgstr "Entradas populares"
+
+#: inc/widgets/alx-tabs.php:57 inc/widgets/alx-tabs.php:321
+msgid "Recent Posts"
+msgstr "Entradas recientes"
+
+#: inc/widgets/alx-tabs.php:19
+msgid "List posts, comments, and/or tags with or without tabs."
+msgstr "Lista de entradas, comentarios y/o etiquetas con o sin pestañas."
+
+#: inc/widgets/alx-posts.php:187 inc/widgets/alx-tabs.php:423
+msgid "Show dates"
+msgstr "Mostrar fechas"
+
+#: inc/widgets/alx-posts.php:183 inc/widgets/alx-tabs.php:419
+msgid "Show categories"
+msgstr "Mostrar categorías"
+
+#: inc/widgets/alx-posts.php:179
+msgid "Post Info"
+msgstr "Información de la entrada"
+
+#: inc/widgets/alx-posts.php:174 inc/widgets/alx-tabs.php:366
+msgid "Past 24 hours"
+msgstr "Últimas 24 horas"
+
+#: inc/widgets/alx-posts.php:173 inc/widgets/alx-tabs.php:365
+msgid "This week"
+msgstr "Esta semana"
+
+#: inc/widgets/alx-posts.php:172 inc/widgets/alx-tabs.php:364
+msgid "This month"
+msgstr "Este mes"
+
+#: inc/widgets/alx-posts.php:171 inc/widgets/alx-tabs.php:363
+msgid "This year"
+msgstr "Este año"
+
+#: inc/widgets/alx-posts.php:170 inc/widgets/alx-tabs.php:362
+msgid "All time"
+msgstr "De todos los tiempos"
+
+#: inc/widgets/alx-posts.php:168
+msgid "Posts from:"
+msgstr "Entradas de:"
+
+#: inc/widgets/alx-posts.php:164
+msgid "Random"
+msgstr "Aleatorio"
+
+#: inc/widgets/alx-posts.php:163
+msgid "Most commented"
+msgstr "Más comentadas"
+
+#: inc/widgets/alx-posts.php:162
+msgid "Most recent"
+msgstr "Más reciente"
+
+#: inc/widgets/alx-posts.php:160
+msgid "Order by:"
+msgstr "Ordenar por:"
+
+#: inc/widgets/alx-posts.php:157 inc/widgets/alx-tabs.php:337
+#: inc/widgets/alx-tabs.php:357
+msgid "All"
+msgstr "Todo"
+
+#: inc/widgets/alx-posts.php:156 inc/widgets/alx-tabs.php:336
+#: inc/widgets/alx-tabs.php:356
+msgid "Category:"
+msgstr "Categoría:"
+
+#: inc/widgets/alx-posts.php:152 inc/widgets/alx-tabs.php:332
+#: inc/widgets/alx-tabs.php:352 inc/widgets/alx-tabs.php:382
+msgid "Items to show"
+msgstr "Elementos a mostrar"
+
+#: inc/widgets/alx-posts.php:149 inc/widgets/alx-tabs.php:329
+#: inc/widgets/alx-tabs.php:349
+msgid "Show thumbnails"
+msgstr "Mostrar miniaturas"
+
+#: inc/widgets/alx-posts.php:145
+msgid "List Posts"
+msgstr "Lista de entradas"
+
+#: inc/widgets/alx-posts.php:141 inc/widgets/alx-tabs.php:317
+msgid "Title:"
+msgstr "Título:"
+
+#: inc/widgets/alx-posts.php:19
+msgid "Display posts from a category"
+msgstr "Muestra entradas de una categoría"
+
+#. Description of the plugin
+msgid "Extends AlxMedia themes with additional features such as social share links, custom sidebars, thumbnail image upscale and post format meta boxes. Also includes 2 flexible custom widgets, Alx Tabs and Alx Posts."
+msgstr "Amplía los temas de AlxMedia con funciones adicionales como enlaces para compartir en redes sociales, barras laterales personalizadas, imágenes en miniatura de alta calidad y metaboxes en formato entrada. También incluye 2 widgets flexibles personalizados, Alx Tabs y Alx Posts."
+
+#: inc/post-formats.php:45
+msgid "Video URL"
+msgstr "URL del vídeo"
+
+#: inc/post-formats.php:36
+msgid "Format: Video"
+msgstr "Formato: vídeo"
+
+#: inc/post-formats.php:23
+msgid "Audio URL"
+msgstr "URL del audio"
+
+#: inc/post-formats.php:14
+msgid "Format: Audio"
+msgstr "Formato: Audio"
+
+#: inc/options.php:102
+msgid "This ID must be unique"
+msgstr "Este ID debe ser único"
+
+#: inc/options.php:101
+msgid "Sidebar ID"
+msgstr "ID de la barra lateral"
+
+#: inc/options.php:96
+msgid "The widget box title"
+msgstr "Título de la caja del widget "
+
+#: inc/options.php:95
+msgid "Sidebar Title"
+msgstr "Título de la barra lateral"
+
+#: inc/options.php:88
+msgid "sidebar"
+msgstr "barra lateral"
+
+#: inc/options.php:84
+msgid "Make sure that you save and refresh the page if you can not see the sidebars you have created."
+msgstr "Asegúrate de guardar y refrescar la página si no puedes ver las barras laterales que has creado. "
+
+#: inc/options.php:83
+msgid "You must save and refresh the page to see your new sidebars."
+msgstr "Debes guardar y refrescar la página para ver tus nuevas barras laterales. "
+
+#: inc/options.php:82
+msgid "Create Sidebars"
+msgstr "Crear barras laterales"
+
+#: inc/options.php:37
+msgid "Custom Sidebars"
+msgstr "Barras laterales personalizadas"
+
+#: inc/options.php:74
+msgid "Enable Image Upscale"
+msgstr "Activar el reescalado de imágenes"
+
+#: inc/options.php:31
+msgid "Image Upscale"
+msgstr "Reescalado de imágenes"
+
+#: inc/options.php:66
+msgid "Your @username will be added to share-tweets of your posts (optional)"
+msgstr "Tu @nombre-de-usuario será añadido al tuit compartido de tus entradas (opcional)"
+
+#: inc/options.php:65
+msgid "Twitter Username"
+msgstr "Nombre de usuario de Twitter"
+
+#: inc/options.php:57
+msgid "Enable Social Share"
+msgstr "Activar compartir en redes sociales"
+
+#: inc/options.php:25
+msgid "Social Share"
+msgstr "Compartir en redes sociales"
+
+#: inc/options.php:19
+msgid "Theme Extensions"
+msgstr "Extensiones del tema"
+
+#. Author of the plugin
+msgid "Alexander Agnarson"
+msgstr "Alexander Agnarson"
+
+#. Plugin URI of the plugin
+msgid "http://wordpress.org/plugins/alx-extensions/"
+msgstr "http://wordpress.org/plugins/alx-extensions/"
+
+#. Plugin Name of the plugin
+msgid "Alx Extensions"
+msgstr "Alx Extensions"
+
+#: inc/share.php:22
+msgid "Share on LinkedIn"
+msgstr "Compartir en Linkedin"
+
+#: inc/share.php:21
+msgid "Pin It"
+msgstr "Fijar"
+
+#: inc/share.php:20
+msgid "Like"
+msgstr "Me gusta"
+
+#: inc/share.php:19
+msgid "Tweet"
+msgstr "Tuit"
+
+#: inc/share-footer.php:18 inc/share-footer.php:19 inc/share-footer.php:29
+#: inc/share-footer.php:42 inc/share.php:18
+msgid "Share"
+msgstr "Compartir"
