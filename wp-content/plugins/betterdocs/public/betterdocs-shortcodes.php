@@ -174,7 +174,7 @@ function betterdocs_category_grid($atts, $content = null)
 						$cat_icon = '';
 					}
 
-					echo '<div class="'. esc_attr($wrap_class) .'">
+					echo '<div id="cat-id-'.$term_id.'" class="'. esc_attr($wrap_class) .'">
 						<div class="'. esc_attr($title_class) .'">
 							<div class="docs-cat-title-inner">';
 								$term_permalink = BetterDocs_Helper::term_permalink('doc_category', $term->slug);
@@ -428,7 +428,7 @@ function betterdocs_category_grid($atts, $content = null)
 
                     $term_permalink = BetterDocs_Helper::term_permalink('doc_category', $term_slug);
                     ?>
-                    <div class="cat tet <?php echo esc_attr($wrap_class) ?>">
+                    <div id="cat-id-<?php echo $term_id; ?>" class="cat tet <?php echo esc_attr($wrap_class) ?>">
                         <div class="<?php echo esc_attr($title_class) ?>">
                             <div class="docs-cat-title-inner">
                                 <?php
@@ -555,7 +555,7 @@ function betterdocs_category_grid($atts, $content = null)
 					// set active category class in single page	
 					$wrap_class = 'docs-single-cat-wrap';
 					$term_permalink = BetterDocs_Helper::term_permalink('doc_category', $term->slug);
-					echo '<a href="'.esc_url($term_permalink).'" class="'.esc_attr($wrap_class).'">';
+					echo '<a href="'.esc_url($term_permalink).'" class="'.esc_attr($wrap_class).'" id="cat-id-'.$term_id.'">';
 					if($post_icon_check) {
 						$cat_icon_id = get_term_meta($term_id, 'doc_category_image-id', true);
 						if ($cat_icon_id) {

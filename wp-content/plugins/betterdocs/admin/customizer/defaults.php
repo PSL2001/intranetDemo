@@ -398,7 +398,13 @@ function betterdocs_get_option_defaults() {
 		'betterdocs_doc_single_toc_margin_top' => '0',
 		'betterdocs_doc_single_toc_margin_right' => '0',
 		'betterdocs_doc_single_toc_margin_bottom' => '0',
-		'betterdocs_doc_single_toc_margin_left' => '0'
+		'betterdocs_doc_single_toc_margin_left' => '0',
+		'betterdocs_doc_single_content_area_bg_image' => '',
+		'betterdocs_doc_single_content_bg_property' => '',
+		'betterdocs_doc_single_content_bg_property_size' => '',
+		'betterdocs_doc_single_content_bg_property_repeat' => '',
+		'betterdocs_doc_single_content_bg_property_attachment' => '',
+		'betterdocs_doc_single_content_bg_property_position' => '',
 	);
 	
 	return apply_filters( 'betterdocs_option_defaults', $betterdocs_defaults );

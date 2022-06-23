@@ -119,7 +119,7 @@
 				customizer_controls_show(setting,'betterdocs_doc_page_item_count_bg_color','layout-1');
 				customizer_controls_show(setting,'betterdocs_doc_page_item_counter_size','layout-1');
 				customizer_controls_show(setting,'betterdocs_doc_page_item_count_inner_bg_color','layout-1');
-				customizer_controls_show(setting,'betterdocs_doc_page_cat_desc','layout-2,layout-5');
+				customizer_controls_show(setting,'betterdocs_doc_page_cat_desc','layout-2,layout-3,layout-5');
 				customizer_controls_show(setting,'betterdocs_doc_page_box_border_bottom','layout-2');
 				customizer_controls_show(setting,'betterdocs_doc_page_box_border_bottom_size','layout-2');
 				customizer_controls_show(setting,'betterdocs_doc_page_box_border_bottom_color','layout-2');

@@ -120,6 +120,8 @@ class BetterDocs_WP_Posts_List_Table extends WP_Posts_List_Table {
             );
         }
 
+        
+
         return new WP_Query($args);
     }
     /**

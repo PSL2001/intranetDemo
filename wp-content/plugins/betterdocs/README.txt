@@ -1,11 +1,11 @@
 === BetterDocs - Best Documentation & Knowledge Base Plugin ===
 Contributors: wpdevteam, re_enter_rupok, asif2bd, emsohel, priyomukul, manzurahammed, cu121, fencermonir
 Donate link: https://wpdeveloper.com
-Tags:  knowledge base, docs, documentation, documents, wiki, faq page, doc, knowledge, table of content, TOC, knowledgebase, faqs, doc page, best documentation plugin, support ticket, customer support, instant answer bot, bot, help articles, better docs
+Tags:  knowledge base, docs, documentation, documents, wiki, faq page, doc, knowledge, knowledgebase, faqs, doc page, best documentation plugin, support ticket, customer support, instant answer bot, bot, help articles, better docs, document, faq, instant answers, elementor, chat, live search, external knowledgebase, multiple knowledge bases, faqs, help, chatbot, TOC, table of content, elementor doc, template, doc theme
 Requires at least: 4.0
-Tested up to: 5.9
+Tested up to: 6.0
 Requires PHP: 5.6
-Stable tag: 2.0.13
+Stable tag: 2.0.14
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -139,11 +139,25 @@ This Documentation plugin is brought to you by the team behind [WPDeveloper](htt
 
 If you like this docs plugin, then consider checking out our other projects:
 
-[Essential Addons For Elementor](https://wordpress.org/plugins/essential-addons-for-elementor-lite/) – Most popular Elementor extensions with 1 Million+ active users in the WordPress repository.
-[NotificationX](https://wordpress.org/plugins/notificationx/) – Best Social Proof & FOMO Marketing Solution
-[SchedulePress](https://wordpress.org/plugins/wp-scheduled-posts/) – Complete solution for WordPress Post Scheduling to manage schedules through an editorial calendar.
-[EmbedPress](https://wordpress.org/plugins/embedpress/)- Embed videos, images, posts, audio, maps and upload PDF, DOC, PPT & all other types of content into your WordPress site with one-click and showcase it beautifully for the visitors.
-[Templately](https://wordpress.org/plugins/templately/) Ultimate Template clouds with 1800+ ready templates for Elementor & Gutenberg along with FREE cloud collaboration with your team.
+🔝 **[Essential Addons For Elementor](https://wordpress.org/plugins/essential-addons-for-elementor-lite/)**: Most popular Elementor extensions with 1 Million+ active users in the WordPress repository
+
+☁ **[Templately](https://wordpress.org/plugins/templately/)**: Ultimate Template clouds with 2000+ ready templates for Elementor & Gutenberg along with FREE cloud collaboration with your team
+
+🔔 **[NotificationX](https://wordpress.org/plugins/notificationx/)** – Best Social Proof & FOMO Marketing Solution to boost conversions & designing stunning WordPress notification bars in Elementor
+
+📄 **[EmbedPress](https://wordpress.org/plugins/embedpress/)**: EmbedPress lets you embed videos, images, audio, maps, upload PDF, DOC, PPT & all other types of content into your WordPress site with one-click.
+
+⏰ **[SchedulePress](https://wordpress.org/plugins/wp-scheduled-posts/)**  – Complete solution for managing WordPress content scheduling through an editorial calendar & Social Share
+
+⭐ **[ReviewX](https://wordpress.org/plugins/reviewx/)**  – Advanced multi criteria Rating & Reviews for WooCommerce that is seamlessly compatible with Elementor
+
+🔗 **[BetterLinks](https://wordpress.org/plugins/betterlinks/)**: Latest best WordPress link management plugin for link shortening, tracking & analyzing.
+
+⚡ **[Flexia](https://wordpress.org/themes/flexia/)**: Most lightweight, customizable & multi purpose theme for WordPress.
+
+🛑 **[Disable Comments](https://wordpress.org/plugins/disable-comments/)** – Instantly allow or disallow comments from any post type in WordPress and gain complete control over your full website. Used by 1M+ users!
+
+🔎 **[easy.jobs](https://wordpress.org/plugins/easyjobs/)** -  Smart and easy recruitment and talent sourcing solution for hiring remotely with AI-powered screening system, question sets, remote interviews, and designing branded career pages with Elementor.
 
 
 Visit [WPDeveloper](https://wpdeveloper.com) to learn more about how to do better in WordPress with [Help Tutorial, Tips & Tricks](https://wpdeveloper.com/blog)!
@@ -175,41 +189,46 @@ Yes, it will work with any standard WordPress theme.
 
 == Changelog ==
 
-= 2.0.13 - 19/04/2022 = 
+= 2.0.14 - 25/05/2022 =
+- Added: WordPress 6.0 Compatibility
+- Added: Background Image set option for Single Docs
+- Few minor bug fixes & improvements
+
+= 2.0.13 - 19/04/2022 =
 - Added: BetterDocs default order option for the Gutenberg blocks
 - Few minor bug fixes & improvements
 
-= 2.0.12 - 07/04/2022 = 
+= 2.0.12 - 07/04/2022 =
 - Fixed: Fatal error if a default WordPress user role doesn't exist
 
-= 2.0.11 - 07/04/2022 = 
+= 2.0.11 - 07/04/2022 =
 - Fixed: Default WordPress Role Management capabilities not working
 - Fixed: Fatal Error while processing Role Management migration
 - Few minor bug fixes & improvements
 
-= 2.0.10 - 29/03/2022 = 
+= 2.0.10 - 29/03/2022 =
 - Fixed: Role management not migrating properly
 - Few minor bug fixes & improvements
 
-= 2.0.9 - 27/03/2022 = 
+= 2.0.9 - 27/03/2022 =
 - Fixed: Ordering not working properly for Sub-categories
 - Fixed: Adding %knowledge_base% in the category page URL when WPML Language Switcher option is hit
 - Fixed: Docs tags disappearing in the List View
 - Fixed: Deprecated errors related to Elementor 3.6
 - Few minor bug fixes & improvements
 
-= 2.0.8 - 06/03/2022 = 
+= 2.0.8 - 06/03/2022 =
 - Fixed: Custom Post Type throwing 404 Page while Multiple KB is activated
 - Fixed: Fatal error related to Elementor Template Loader
 - Few minor bug fixes & improvements
 
-= 2.0.7 - 15/02/2022 = 
+= 2.0.7 - 15/02/2022 =
 - Fixed: Category Creation not working from Gutenberg editor in WordPress 5.9
 - Fixed: Ready-made templates not loading inside Elementor Theme Builder
 - Fixed: Conflict with Phlox PRO theme
 - Few minor bug fixes & improvements
 
-= 2.0.6 - 02/02/2022 = 
+= 2.0.6 - 02/02/2022 =
 - Fixed: Category Order not working for docs page
 - Fixed: Undefined index orderby on betterdocs_category_box shortcode
 - Fixed: Docs not updating in WordPress 5.9 when reusable blocks are used
@@ -217,12 +236,12 @@ Yes, it will work with any standard WordPress theme.
 - Fixed: Customizer not loading in Twenty Twenty & Twenty Seventeen Theme
 - Few minor bug fixes & improvements
 
-= 2.0.5 - 25/01/2022 = 
+= 2.0.5 - 25/01/2022 =
 - Fixed: Child pages throwing 404 error when BetterDocs is enabled
 - Fixed: "Share this Article" text not being translatable in different layouts
 - Few minor bug fixes & improvements
 
-= 2.0.4 - 12/01/2022 = 
+= 2.0.4 - 12/01/2022 =
 - Fixed: Built-in Docs order not working
 - Fixed: Option to change "Search" button placeholder
 - Fixed: Docs order not working properly inside Elementor widgets
@@ -233,7 +252,7 @@ Yes, it will work with any standard WordPress theme.
 - Few minor bug fixes & improvements
 
 
-= 2.0.3 - 23/12/2021 = 
+= 2.0.3 - 23/12/2021 =
 - Fixed: Few minor bug fix & improvements
 
 = 2.0.2 - 22/12/2021 =

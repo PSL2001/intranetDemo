@@ -2637,6 +2637,163 @@ function betterdocs_customize_register( $wp_customize ) {
 		) )
 	);
 
+	// Column Background Image(Single Docs)
+
+	$wp_customize->add_setting( 'betterdocs_doc_single_content_area_bg_image' , array(
+		'default'    => $defaults['betterdocs_doc_single_content_area_bg_image'],
+		'capability' => 'edit_theme_options',
+		'transport'  => 'postMessage'
+	) );
+
+	$wp_customize->add_control(
+		new WP_Customize_Image_Control(
+		$wp_customize,
+		'betterdocs_doc_single_content_area_bg_image',
+		array(
+			'label'    => esc_html__('Background Image', 'betterdocs'),
+			'section'  => 'betterdocs_single_docs_settings',
+			'settings' => 'betterdocs_doc_single_content_area_bg_image',
+			'priority' => 103
+		) )
+	);
+
+	// Background property(Single Docs)
+
+	$wp_customize->add_setting( 'betterdocs_doc_single_content_bg_property', array(
+		'default'       	=> $defaults['betterdocs_doc_single_content_bg_property'],
+		'capability'    	=> 'edit_theme_options',
+		'transport' 		=> 'postMessage',
+		'sanitize_callback' => 'betterdocs_sanitize_select'
+
+	) );
+
+	$wp_customize->add_control( new BetterDocs_Title_Custom_Control(
+		$wp_customize, 'betterdocs_doc_single_content_bg_property', array(
+		'type'     => 'betterdocs-title',
+		'section'  => 'betterdocs_single_docs_settings',
+		'settings' => 'betterdocs_doc_single_content_bg_property',
+		'priority' => 103,
+		'label'    => esc_html__('Background Property', 'betterdocs'),
+		'input_attrs' => array(
+			'id' => 'betterdocs_doc_single_content_bg_property',
+			'class' => 'betterdocs-select',
+		),
+	) ) );
+
+	$wp_customize->add_setting( 'betterdocs_doc_single_content_bg_property_size', array(
+		'default'       	=> $defaults['betterdocs_doc_single_content_bg_property_size'],
+		'capability'    	=> 'edit_theme_options',
+		'transport' 		=> 'postMessage',
+		'sanitize_callback' => 'betterdocs_sanitize_select'
+
+	) );
+
+	$wp_customize->add_control( new BetterDocs_Select_Control(
+		$wp_customize, 'betterdocs_doc_single_content_bg_property_size', array(
+		'type'     => 'betterdocs-select',
+		'section'  => 'betterdocs_single_docs_settings',
+		'settings' => 'betterdocs_doc_single_content_bg_property_size',
+		'priority' => 103,
+		'label'    => esc_html__('Size', 'betterdocs'),
+		'input_attrs' => array(
+			'class' => 'betterdocs_doc_single_content_bg_property betterdocs-select',
+		),
+		'choices'  => array(
+			'auto'   	=> esc_html__('auto', 'betterdocs'),
+			'length'   	=> esc_html__('length', 'betterdocs'),
+			'cover'   	=> esc_html__('cover', 'betterdocs'),
+			'contain'   => esc_html__('contain', 'betterdocs'),
+			'initial'   => esc_html__('initial', 'betterdocs'),
+			'inherit'   => esc_html__('inherit', 'betterdocs')
+		)
+	) ) );
+	
+	$wp_customize->add_setting( 'betterdocs_doc_single_content_bg_property_repeat', array(
+		'default'       	=> $defaults['betterdocs_doc_single_content_bg_property_repeat'],
+		'capability'    	=> 'edit_theme_options',
+		'transport' 		=> 'postMessage',
+		'sanitize_callback' => 'betterdocs_sanitize_select'
+
+	) );
+
+	$wp_customize->add_control( new BetterDocs_Select_Control(
+		$wp_customize, 'betterdocs_doc_single_content_bg_property_repeat', array(
+		'type'     => 'betterdocs-select',
+		'section'  => 'betterdocs_single_docs_settings',
+		'settings' => 'betterdocs_doc_single_content_bg_property_repeat',
+		'priority' => 103,
+		'label'    => esc_html__('Repeat', 'betterdocs'),
+		'input_attrs' => array(
+			'class' => 'betterdocs_doc_single_content_bg_property betterdocs-select',
+		),
+		'choices'  => array(
+			'no-repeat' => esc_html__('no-repeat', 'betterdocs'),
+			'initial'   => esc_html__('initial', 'betterdocs'),
+			'inherit'   => esc_html__('inherit', 'betterdocs'),
+			'repeat'   	=> esc_html__('repeat', 'betterdocs'),
+			'repeat-x'  => esc_html__('repeat-x', 'betterdocs'),
+			'repeat-y'  => esc_html__('repeat-y', 'betterdocs')
+		)
+	) ) );
+
+	$wp_customize->add_setting( 'betterdocs_doc_single_content_bg_property_attachment', array(
+		'default'       => $defaults['betterdocs_doc_single_content_bg_property_attachment'],
+		'capability'    => 'edit_theme_options',
+		'transport' => 'postMessage',
+		'sanitize_callback' => 'betterdocs_sanitize_select'
+
+	) );
+
+	$wp_customize->add_control( new BetterDocs_Select_Control(
+		$wp_customize, 'betterdocs_doc_single_content_bg_property_attachment', array(
+		'type'     => 'betterdocs-select',
+		'section'  => 'betterdocs_single_docs_settings',
+		'settings' => 'betterdocs_doc_single_content_bg_property_attachment',
+		'priority' => 103,
+		'label'    => esc_html__('Attachment', 'betterdocs'),
+		'input_attrs' => array(
+			'class' => 'betterdocs_doc_single_content_bg_property betterdocs-select',
+		),
+		'choices'  => array(
+			'initial' 	=> esc_html__('initial', 'betterdocs'),
+			'inherit'   => esc_html__('inherit', 'betterdocs'),
+			'scroll'   	=> esc_html__('scroll', 'betterdocs'),
+			'fixed'  	=> esc_html__('fixed', 'betterdocs'),
+			'local'  	=> esc_html__('local', 'betterdocs'),
+		)
+	) ) );
+
+	$wp_customize->add_setting( 'betterdocs_doc_single_content_bg_property_position', array(
+		'default'       => $defaults['betterdocs_doc_single_content_bg_property_position'],
+		'capability'    => 'edit_theme_options',
+		'transport' => 'postMessage',
+		'sanitize_callback' => 'esc_html'
+
+	) );
+
+	$wp_customize->add_control( new BetterDocs_Select_Control(
+		$wp_customize, 'betterdocs_doc_single_content_bg_property_position', array(
+		'type'     => 'betterdocs-select',
+		'section'  => 'betterdocs_single_docs_settings',
+		'settings' => 'betterdocs_doc_single_content_bg_property_position',
+		'priority' => 103,
+		'label'    => esc_html__('Position', 'betterdocs'),
+		'input_attrs' => array(
+			'class' => 'betterdocs_doc_single_content_bg_property betterdocs-select',
+		),
+		'choices'  => array(
+			'left top'   	  => esc_html__('left top', 'betterdocs'),
+			'left center'     => esc_html__('left center', 'betterdocs'),
+			'left bottom'     => esc_html__('left bottom', 'betterdocs'),
+			'right top' 	  => esc_html__('right top', 'betterdocs'),
+			'right center'    => esc_html__('right center', 'betterdocs'),
+			'right bottom'    => esc_html__('right bottom', 'betterdocs'),
+			'center top'      => esc_html__('center top', 'betterdocs'),
+			'center center'   => esc_html__('center center', 'betterdocs'),
+			'center bottom'   => esc_html__('center bottom', 'betterdocs')
+		)
+	) ) );
+
 	$wp_customize->add_setting( 'betterdocs_doc_single_content_area_padding', array(
 		'default'       => $defaults['betterdocs_doc_single_content_area_padding'],
 		'capability'    => 'edit_theme_options',

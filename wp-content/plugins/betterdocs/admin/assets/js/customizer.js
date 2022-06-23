@@ -443,6 +443,37 @@
         } );
     });
 
+    // Single Doc Background Image & Background Image Properties
+    wp.customize( 'betterdocs_doc_single_content_area_bg_image', function( value ) {
+        value.bind( function( to ) {
+            $( '.betterdocs-single-bg .betterdocs-content-area,.betterdocs-single-layout4 .betterdocs-content-full,.betterdocs-single-layout5 .betterdocs-content-full' ).css( 'background-image', 'url('+to+')' );
+        } );
+    });
+
+    wp.customize( 'betterdocs_doc_single_content_bg_property_size', function( value ) {
+        value.bind( function( to ) {
+            $( '.betterdocs-single-bg .betterdocs-content-area,.betterdocs-single-layout4 .betterdocs-content-full,.betterdocs-single-layout5 .betterdocs-content-full' ).css( 'background-size', to );
+        } );
+    });
+
+    wp.customize( 'betterdocs_doc_single_content_bg_property_repeat', function( value ) {
+        value.bind( function( to ) {
+            $( '.betterdocs-single-bg .betterdocs-content-area,.betterdocs-single-layout4 .betterdocs-content-full,.betterdocs-single-layout5 .betterdocs-content-full' ).css( 'background-repeat', to );
+        } );
+    });
+
+    wp.customize( 'betterdocs_doc_single_content_bg_property_attachment', function( value ) {
+        value.bind( function( to ) {
+            $( '.betterdocs-single-bg .betterdocs-content-area,.betterdocs-single-layout4 .betterdocs-content-full,.betterdocs-single-layout5 .betterdocs-content-full' ).css( 'background-attachment', to );
+        } );
+    });
+
+    wp.customize( 'betterdocs_doc_single_content_bg_property_position', function( value ) {
+        value.bind( function( to ) {
+            $( '.betterdocs-single-bg .betterdocs-content-area,.betterdocs-single-layout4 .betterdocs-content-full,.betterdocs-single-layout5 .betterdocs-content-full' ).css( 'background-position', to );
+        } );
+    });
+
     wp.customize( 'betterdocs_doc_single_content_area_padding_top', function( value ) {
         value.bind( function( to ) {
             $( '.betterdocs-single-wraper .betterdocs-content-area,.betterdocs-single-layout4 .betterdocs-content-full,.betterdocs-single-layout5 .betterdocs-content-full' ).css( 'padding-top', to + 'px' );
